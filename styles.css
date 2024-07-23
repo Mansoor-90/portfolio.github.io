@@ -20,18 +20,28 @@ header {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    position: relative;
+}
+
+header .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
 }
 
 nav {
     background: #0779e4;
     color: #fff;
     padding: 10px 0;
+    text-align: center;
 }
 
 nav ul {
     padding: 0;
     list-style: none;
-    text-align: center;
 }
 
 nav ul li {
@@ -69,13 +79,13 @@ main {
 .projects .project-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .project-item {
     flex: 0 0 48%;
     padding: 20px;
-    margin-bottom: 20px;
+    margin: 10px;
     background: #fff;
     border: #ddd 1px solid;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -88,8 +98,4 @@ footer {
     text-align: center;
     padding: 20px 0;
     margin-top: 40px;
-}
-
-footer a {
-    color: #0779e4;
 }
